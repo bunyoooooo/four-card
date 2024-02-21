@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --red: #ea5454;
+  --moviy: #44d3d2;
+  --sariq: #fcae4a;
+  --kok: #549ef2;
+  --kul-color: #4d4f62;
+  --Poppins: "Poppins";
+  --white: #fff;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+.site-header-title{
+  margin-bottom: 64px;
+}
+.header__text {
+  color: var(--kul-color);
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.25px;
+}
+.header-title {
+  color: var(--kul-color);
+  text-align: center;
+  font-family: var(--Poppins);
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+}
+.header-hero-text {
+  color: var(--kul-color);
+  font-family: var(--Poppins);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.104px;
+  opacity: 0.5;
+  text-align: center;
+  margin-top: 16px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.wrapper__card {
+  height: 530px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.wrapper__cards {
+  width: 350px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  position: relative;
+  padding-left: 32px;
+  padding-top: 32px;
+}
+.line1 {
+  width: 350px;
+  height: 4px;
+  background: var(--red);
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.wrapper-cards__title {
+  color: var(--kul-color);
+  font-family: var(--Poppins);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.wrapper-cards__text {
+  width: 286px;
+  color: var(--kul-color);
+  font-family: var(--Poppins);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.09px;
+  opacity: 0.5;
+}
+.svg-home {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+}
+
+.line2 {
+  width: 350px;
+  height: 4px;
+  background: var(--sariq);
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.line3 {
+  width: 350px;
+  height: 4px;
+  background: var(--moviy);
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.line4 {
+  width: 350px;
+  height: 4px;
+  background: var(--kok);
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}

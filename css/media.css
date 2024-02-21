@@ -1,0 +1,103 @@
+@media (max-width:1140px){
+    .site-header-title{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .wrapper{
+        width: 750PX;
+        height: 100%;
+        flex-wrap: wrap;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .n1{
+        justify-content: end;      
+        align-items: center;  
+    }
+    .n2{
+        justify-content: start;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 10px;
+    }
+}
+@media (max-width: 790px) {
+    .container {
+        margin: auto;
+      width: 375px;
+      height: 1360px;
+    }
+    .header__text {
+      color: var(--kul-color);
+      font-family: var(--Poppins);
+      font-size: 24px;
+      font-weight: 300;
+      letter-spacing: 0.167px;
+    }
+    .header-title {
+      color: var(--kul-color);
+      text-align: center;
+      font-family: var(--Poppins);
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 0.167px;
+    }
+    .header-hero-text {
+      width: 311px;
+      color: var(--kul-color);
+      text-align: center;
+      font-family: var(--Poppins);
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+      letter-spacing: 0.104px;
+    }
+    .wrapper {
+      max-width: 100%;
+      width: 100%;
+      flex-wrap: wrap;
+      row-gap: 25px;
+      margin-left: 10px;
+      flex-direction: column;
+    }
+    .wrapper-cards__title {
+      color: var(--kul-color);
+      font-family: var(--Poppins);
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .wrapper-cards__text {
+      width: 254px;
+      color: var(--kul-color);
+      font-family: var(--Poppins);
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 23px; 
+      letter-spacing: 0.09px;
+    }
+    .n1{
+        position: static;
+        width: 350px;
+        height: 250px;
+    }
+    .n2{
+        position: static;
+        width: 350px;
+        height: 250px;
+    }
+
+  }
+  
